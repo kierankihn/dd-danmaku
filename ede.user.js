@@ -3,19 +3,19 @@
 // @description  Emby弹幕插件
 // @namespace    https://github.com/RyoLee
 // @author       RyoLee
-// @version      1.11
+// @version      1.11.1
 // @copyright    2022, RyoLee (https://github.com/RyoLee)
-// @license      MIT; https://raw.githubusercontent.com/RyoLee/emby-danmaku/master/LICENSE
+// @license      MIT; https://raw.githubusercontent.com/kierankihn/dd-danmaku/master/LICENSE
 // @icon         https://github.githubassets.com/pinned-octocat.svg
-// @updateURL    https://cdn.jsdelivr.net/gh/RyoLee/emby-danmaku@gh-pages/ede.user.js
-// @downloadURL  https://cdn.jsdelivr.net/gh/RyoLee/emby-danmaku@gh-pages/ede.user.js
+// @updateURL    https://cdn.jsdelivr.net/gh/kierankihn/dd-danmaku@gh-pages/ede.user.js
+// @downloadURL  https://cdn.jsdelivr.net/gh/kierankihn/dd-danmaku@gh-pages/ede.user.js
 // @grant        none
-// @match        */web/index.html
+// @match        https://emby.kierankihn.com/web/index.html**
 // ==/UserScript==
 
 (async function () {
     'use strict';
-    if (document.querySelector('meta[name="application-name"]').content == 'Emby') {
+    if (document.querySelector('meta[name="application-name"]').content == 'kierankihn') {
         // ------ configs start------
         const check_interval = 200;
         const chConverTtitle = ['当前状态: 未启用', '当前状态: 转换为简体', '当前状态: 转换为繁体'];
