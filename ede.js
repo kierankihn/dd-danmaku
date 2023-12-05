@@ -10,12 +10,13 @@
 // @updateURL    https://cdn.jsdelivr.net/gh/RyoLee/emby-danmaku@gh-pages/ede.user.js
 // @downloadURL  https://cdn.jsdelivr.net/gh/RyoLee/emby-danmaku@gh-pages/ede.user.js
 // @grant        none
-// @match        */web/index.html
+// @match        https://emby.kierankihn.com/web/index.html**
 // ==/UserScript==
 
 (async function () {
     'use strict';
-    if (document.querySelector('meta[name="application-name"]').content == 'Emby') {
+    console.log("Emby danmaku extension is working");
+    if (document.querySelector('meta[name="application-name"]').content == 'kierankihn') {
         // ------ configs start------
         const check_interval = 200;
         const chConverTtitle = ['当前状态: 未启用', '当前状态: 转换为简体', '当前状态: 转换为繁体'];
