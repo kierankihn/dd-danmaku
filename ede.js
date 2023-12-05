@@ -3,7 +3,7 @@
 // @description  Emby弹幕插件
 // @namespace    https://github.com/RyoLee
 // @author       RyoLee
-// @version      1.11
+// @version      1.11.1
 // @copyright    2022, RyoLee (https://github.com/RyoLee)
 // @license      MIT; https://raw.githubusercontent.com/kierankihn/dd-danmaku/master/LICENSE
 // @icon         https://github.githubassets.com/pinned-octocat.svg
@@ -15,7 +15,6 @@
 
 (async function () {
     'use strict';
-    console.log("Emby danmaku extension is working");
     if (document.querySelector('meta[name="application-name"]').content == 'kierankihn') {
         // ------ configs start------
         const check_interval = 200;
