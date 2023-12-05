@@ -5,10 +5,10 @@
 // @author       RyoLee
 // @version      1.11
 // @copyright    2022, RyoLee (https://github.com/RyoLee)
-// @license      MIT; https://raw.githubusercontent.com/RyoLee/emby-danmaku/master/LICENSE
+// @license      MIT; https://raw.githubusercontent.com/kierankihn/dd-danmaku/master/LICENSE
 // @icon         https://github.githubassets.com/pinned-octocat.svg
-// @updateURL    https://cdn.jsdelivr.net/gh/RyoLee/emby-danmaku@gh-pages/ede.user.js
-// @downloadURL  https://cdn.jsdelivr.net/gh/RyoLee/emby-danmaku@gh-pages/ede.user.js
+// @updateURL    https://cdn.jsdelivr.net/gh/kierankihn/dd-danmaku@gh-pages/ede.user.js
+// @downloadURL  https://cdn.jsdelivr.net/gh/kierankihn/dd-danmaku@gh-pages/ede.user.js
 // @grant        none
 // @match        https://emby.kierankihn.com/web/index.html**
 // ==/UserScript==
