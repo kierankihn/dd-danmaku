@@ -1,7 +1,7 @@
 # emby-danmaku
 
 ## Emby danmaku extension
-![截图](https://raw.githubusercontent.com/kierankihn/emby-danmaku/res/S0.png)
+![截图](https://raw.githubusercontent.com/RyoLee/emby-danmaku/res/S0.png)
 
 ## 安装
 
